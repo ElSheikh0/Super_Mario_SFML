@@ -55,7 +55,7 @@ void Blocks::draw(RenderWindow& window) {
 		window.draw(blockSprite);
 	}
 }
-
+//
 
 void Blocks::animation() {
 	if (timer.getElapsedTime().asSeconds() > 0.2f) {
